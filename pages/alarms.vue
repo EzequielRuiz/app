@@ -6,7 +6,7 @@
         <card v-if="$store.state.devices.length > 0">
           <div slot="header">
             <h4 class="card-title">
-              Crear Alarma {{ selectedWidgetIndex }}
+              Create Alarm {{ selectedWidgetIndex }}
             </h4>
           </div>
 
@@ -76,13 +76,13 @@
                 size="lg"
                 :disabled="$store.state.devices.length == 0"
               >
-                Generar Alarma
+                Generate Alarm
               </base-button>
             </div>
           </div>
         </card>
         <card v-else>
-          Necesita Montar un Dispositivo Primero, luego podra crear una alarma.
+          You need to Mount a Device First, then you can GENERATE an Alarm.
         </card>
       </div>
     </div>
@@ -92,7 +92,7 @@
       <div class="col-sm-12">
         <card>
           <div slot="header">
-            <h4 class="card-title">Alarmas</h4>
+            <h4 class="card-title">Alarms</h4>
           </div>
 
           <el-table
@@ -169,7 +169,7 @@
             </el-table-column>
           </el-table>
 
-          <h4 v-else class="card-title">No se encontraron Alarmas</h4>
+          <h4 v-else class="card-title">No alarms found.</h4>
         </card>
       </div>
     </div>

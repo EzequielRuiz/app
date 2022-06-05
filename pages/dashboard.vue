@@ -34,7 +34,8 @@
   </div>
 
   <div v-else>
-    Select a Device...
+    1- Create a Template...
+    2- Create a Device...
   </div>
 
 </template>

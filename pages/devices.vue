@@ -12,7 +12,7 @@
             <base-input
               label="Device Name"
               type="text"
-              placeholder="Ex: Home, Office..."
+              placeholder="Ex: Finca, Casa, Home, Office..."
               v-model="newDevice.name"
             >
             </base-input>

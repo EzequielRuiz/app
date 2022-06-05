@@ -2,10 +2,10 @@
   <div class="sidebar" :data="backgroundColor">
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
       <div class="logo">
-        <a href="https://ioticos.org" class="simple-text logo-mini">
-          <img src="https://yt3.ggpht.com/ytc/AAUvwnjakiyR7urXlB0hxyXjpyXZI2k4eFlahDd5vfgDEQ=s900-c-k-c0x00ffffff-no-rj" alt="app-logo" />
+        <a href="https://miemmtec.ar" class="simple-text logo-mini">
+          <img src="img//icon.png" alt="app-logo" />
         </a>
-        <a href="https://ioticos.org" class="simple-text logo-normal">
+        <a href="https://miemmtec.ar" class="simple-text logo-normal">
           {{ title }}
         </a>
       </div>
@@ -29,22 +29,22 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'Creative Tim',
+      default: 'Miemmtec Tech',
       description: 'Sidebar title'
     },
     shortTitle: {
       type: String,
-      default: 'CT',
+      default: 'MT',
       description: 'Sidebar short title'
     },
     logo: {
       type: String,
-      default: 'http://demos.creative-tim.com/nuxt-black-dashboard-pro/img/icon-nuxt.svg',
+      default: src="img//icon.png",
       description: 'Sidebar app logo'
     },
     backgroundColor: {
       type: String,
-      default: 'vue',
+      default: 'blue',
       validator: value => {
         let acceptedValues = [
           '',

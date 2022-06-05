@@ -128,7 +128,7 @@
                 placeholder="Select Column Width"
                 style="width: 100%;"
               >
-                <el-option
+              <!--  <el-option
                   class="text-dark"
                   value="col-3"
                   label="col-3"
@@ -143,11 +143,13 @@
                   value="col-5"
                   label="col-5"
                 ></el-option>
+                -->
                 <el-option
                   class="text-dark"
                   value="col-6"
                   label="col-6"
                 ></el-option>
+                <!--
                 <el-option
                   class="text-dark"
                   value="col-7"
@@ -173,6 +175,7 @@
                   value="col-11"
                   label="col-11"
                 ></el-option>
+                -->
                 <el-option
                   class="text-dark"
                   value="col-12"
@@ -739,7 +742,7 @@ export default {
         variable: "varname",
         variableType: "input",
         variableSendFreq: "30",
-        unit: "Watts",
+        unit: "°C",
         class: "success",
         column: "col-12",
         decimalPlaces: 2,

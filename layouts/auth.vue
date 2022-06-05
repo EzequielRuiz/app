@@ -41,7 +41,7 @@ export default {
   },
   data() {
     return {
-      sidebarBackground: "vue" //vue|blue|orange|green|red|primary
+      sidebarBackground: "blue" //vue|blue|orange|green|red|primary
     };
   },
 

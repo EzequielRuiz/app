@@ -102,7 +102,7 @@ export default {
   },
   data() {
     return {
-      sidebarBackground: "primary", //vue|blue|orange|green|red|primary
+      sidebarBackground: "blue", //vue|blue|orange|green|red|primary
       client: null,
       options: {
         host: process.env.mqtt_host,

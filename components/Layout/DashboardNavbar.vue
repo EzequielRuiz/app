@@ -16,7 +16,7 @@
           <span class="navbar-toggler-bar bar3"></span>
         </button>
       </div>
-      <a class="navbar-brand ml-xl-3 ml-5" href="#pablo">{{ routeName }}</a>
+      <a class="navbar-brand ml-xl-3 ml-5" href="#miemmtec">{{ routeName }}</a>
     </div>
 
     <ul class="navbar-nav" :class="$rtl.isRTL ? 'mr-auto' : 'ml-auto'">
@@ -78,16 +78,18 @@
         menu-classes="dropdown-navbar"
       >
         <template slot="title">
-          <div class="photo"><img src="img/mike.jpg" /></div>
+          <div class="photo"><img src="img/default-avatar.jpg" /></div>
           <b class="caret d-none d-lg-block d-xl-block"></b>
           <p @click="logOut()" class="d-lg-none">Log out</p>
         </template>
+        <!--
         <li class="nav-link">
           <a href="#" class="nav-item dropdown-item">Profile</a>
         </li>
         <li class="nav-link">
           <a href="#" class="nav-item dropdown-item">Settings</a>
         </li>
+        -->
         <div class="dropdown-divider"></div>
         <li class="nav-link">
           <a href="#" @click="logOut()" class="nav-item dropdown-item">Log out</a>
