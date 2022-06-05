@@ -1,8 +1,8 @@
 {
-  "name": "sicon_22",
+  "name": "iot_gl_app",
   "version": "1.0.0",
-  "description": "Sistema de control IOT: 'SICON22' ",
-  "author": "Miemmtec - General Alvear - Mendoza",
+  "description": "IOT_GL_APP",
+  "author": "IoTicos.org",
   "scripts": {
     "dev": "nuxt",
     "devn": "nodemon api/index.js --exec babel-node",
