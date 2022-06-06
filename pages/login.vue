@@ -3,8 +3,8 @@
     <div class="col-lg-4 col-md-6 ml-auto mr-auto">
       <card class="card-login card-white">
         <template slot="header">
-          <img src="img//card-primary.png" alt="" />
-          <h1 class="card-title">IoT GL   </h1>
+          <img src="img//card-info.png" alt="" />
+          <h1 class="card-title">Miemmtec SiCon  </h1>
         </template>
 
         <div>
@@ -45,9 +45,6 @@
             </h6>
           </div>
 
-          <div class="pull-right">
-            <h6><a href="#help!!!" class="link footer-link">Need Help?</a></h6>
-          </div>
         </div>
       </card>
     </div>
