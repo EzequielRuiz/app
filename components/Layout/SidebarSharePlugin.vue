@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed-plugin" v-click-outside="closeDropDown">
+  <!--<div class="fixed-plugin" v-click-outside="closeDropDown">
     <div class="dropdown show-dropdown" :class="{ show: isOpen }">
       <a data-toggle="dropdown" class="settings-icon">
         <i class="fa fa-cog" @click="toggleDropDown"> </i>
@@ -34,7 +34,7 @@
         </li>
         <br>
         <br>
-        <!--<li class="button-container mt-4">
+        <li class="button-container mt-4">
           <a
             href="https://www.creative-tim.com/learning-lab/nuxt/overview/black-dashboard"
             target="_blank"
@@ -59,7 +59,7 @@
           >
             Upgrade to PRO
           </a>
-        </li>-->
+        </li>
       </ul>
     </div>
   <br>
@@ -131,3 +131,4 @@
     background-color: $info;
   }
 </style>
+-->
