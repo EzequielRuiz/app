@@ -187,7 +187,7 @@
         :class="{ content: !$route.meta.hideContent }"
         @click="toggleSidebar"
       >
-        <zoom-center-transition :duration="200" mode="out-in">
+        <zoom-center-transition :duration="500" mode="out-in">
           <!-- your content here -->
           <nuxt></nuxt>
         </zoom-center-transition>

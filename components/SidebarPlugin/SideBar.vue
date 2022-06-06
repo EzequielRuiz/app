@@ -3,7 +3,7 @@
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
       <div class="logo">
         <a href="https://miemmtec.ar" class="simple-text logo-mini">
-          <img src="img/icon.png" alt="app-logo" />
+          <img src="/img/icon.png" alt="app-logo" /> 
         </a>
         <a href="https://miemmtec.ar" class="simple-text logo-normal">
           {{ title }}
@@ -44,7 +44,7 @@ export default {
     },
     backgroundColor: {
       type: String,
-      default: 'vue',
+      default: 'blue',
       validator: value => {
         let acceptedValues = [
           '',

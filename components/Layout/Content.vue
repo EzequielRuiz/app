@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <FadeTransition :duration="200" mode="out-in">
+    <FadeTransition :duration="500" mode="out-in">
       <!-- your content here -->
       <nuxt></nuxt>
     </FadeTransition>

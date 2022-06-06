@@ -5,7 +5,7 @@
     data-toggle="collapse"
     data-target="#navbar"
     aria-controls="navbarSupportedContent"
-    aria-expanded="false"
+    aria-expanded="true"
     aria-label="Toggle navigation"
   >
     <span class="navbar-toggler-bar bar1"></span>

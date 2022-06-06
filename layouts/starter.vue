@@ -25,7 +25,7 @@
         :class="{ content: !isFullScreenRoute }"
         @click="toggleSidebar"
       >
-        <zoom-center-transition :duration="200" mode="out-in">
+        <zoom-center-transition :duration="500" mode="out-in">
           <!-- your content here -->
           <router-view></router-view>
         </zoom-center-transition>
@@ -69,7 +69,7 @@
     },
     data() {
       return {
-        sidebarBackground: 'vue' //vue|blue|orange|green|red|primary
+        sidebarBackground: 'blue' //vue|blue|orange|green|red|primary
       };
     },
     computed: {

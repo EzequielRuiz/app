@@ -4,7 +4,7 @@
       <card class="card-login card-white">
         <template slot="header">
           <img src="img//card-info.png" alt="" />
-          <h1 class="card-title">Miemmtec SiCon  </h1>
+          <h1 class="card-title">Miemmtec-SiCon  </h1>
         </template>
 
         <div>
@@ -29,7 +29,7 @@
         <div slot="footer">
           <base-button
             native-type="submit"
-            type="primary"
+            type="info"
             class="mb-3"
             size="lg"
             @click="login()"
@@ -78,7 +78,7 @@ export default {
           if (res.data.status == "success") {
 
             this.$notify({
-              type: "success",
+              type: "info",
               icon: "tim-icons icon-check-2",
               message: "Success! Welcome " + res.data.userData.name
             });

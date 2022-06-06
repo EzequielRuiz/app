@@ -6,7 +6,7 @@
           <img src="img//card-info.png" alt="" />
           <h1 class="card-title">Miemmtec-SiCon    </h1>
         </template>
-
+ 
         <div>
           <base-input
             name="name"
@@ -37,7 +37,7 @@
         <div slot="footer">
           <base-button
             native-type="submit"
-            type="primary"
+            type="info"
             class="mb-3"
             size="lg"
             @click="register()"

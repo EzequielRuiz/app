@@ -16,7 +16,7 @@ export default {};
 }
 
 .el-loading-spinner .path {
-  stroke: #66615b !important;
+  stroke: #2718f0 !important;
 }
 
 .el-loading-mask {

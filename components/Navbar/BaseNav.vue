@@ -69,7 +69,7 @@ export default {
     },
     type: {
       type: String,
-      default: 'white',
+      default: 'blue',
       validator(value) {
         return [
           'dark',
