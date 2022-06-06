@@ -99,7 +99,7 @@ $default-color-opacity:      rgba(182, 182, 182, .6) !default;
 $orange-color:               #f96332 !default;
 
 $default:       #344675 !default;
-$primary:       #e14eca !default;
+$primary:       #1d8cf8 !default;
 $secondary:     #f4f5f7 !default;
 $success:       #00f2c3 !default;
 $info:          #1d8cf8 !default;
@@ -253,7 +253,7 @@ $section-colors: map-merge((
 
 // Links
 
-$link-color:                $primary !default;
+$link-color:                $info !default;
 $link-decoration:           none !default;
 $link-hover-color:          darken($link-color, 15%);
 $link-hover-decoration:     none !default;
@@ -653,7 +653,7 @@ $custom-checkbox-indicator-border-radius:       $border-radius-sm !default;
 //$custom-checkbox-indicator-icon-checked:        str-replace(url("data:image/svg+xml !default;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E"), "#", "%23") !default;
 
 $custom-toggle-slider-bg:   #ddd !default;
-$custom-toggle-checked-bg:  theme-color("primary") !default;
+$custom-toggle-checked-bg:  theme-color("info") !default;
 
 // Form validation
 
