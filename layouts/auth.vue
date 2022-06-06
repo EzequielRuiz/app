@@ -5,7 +5,7 @@
     <router-view name="header"></router-view>
 
     <div :class="{ content: true }" style="margin-top: 100px;">
-      <zoom-center-transition :duration="200" mode="out-in">
+      <zoom-center-transition :duration="700" mode="out-in">
         <!-- your content here -->
         <nuxt />
       </zoom-center-transition>

@@ -2,7 +2,7 @@
   <div class="fixed-plugin" v-click-outside="closeDropDown">
     <div class="dropdown show-dropdown" :class="{ show: isOpen }">
       <a data-toggle="dropdown" class="settings-icon">
-        <i class="fa fa-cog fa-2x" @click="toggleDropDown"> </i>
+        <i class="fa fa-cog" @click="toggleDropDown"> </i>
       </a>
       <ul class="dropdown-menu" :class="{ show: isOpen }">
         <li class="header-title">Sidebar Background</li>
@@ -28,6 +28,8 @@
             <span class="label-switch">LIGHT MODE</span>
             <base-switch v-model="darkMode" @input="toggleMode"></base-switch>
             <span class="label-switch label-right">DARK MODE</span>
+            <br>
+            <br>
           </div>
         </li>
         <br>
@@ -125,6 +127,6 @@
   }
 
   .badge-vue {
-    background-color: $vue;
+    background-color: $info;
   }
 </style>

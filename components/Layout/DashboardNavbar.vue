@@ -78,13 +78,13 @@
         menu-classes="dropdown-navbar"
       >
         <template slot="title">
-          <div class="photo"><img src="img/mike.jpg" /></div>
+          <div class="photo"><img src="/img/mike.jpg" /></div>
           <b class="caret d-none d-lg-block d-xl-block"></b>
           <p @click="logOut()" class="d-lg-none">Log out</p>
         </template>
         <div class="dropdown-divider"></div>
         <li class="nav-link">
-          <a href="#" @click="logOut()" class="nav-item dropdown-item">Log out</a>
+          <a href="#" @click="logOut()" class="nav-item dropdown-item 'tim-icons icon-button-power'">Log out</a>
         </li>
       </base-dropdown>
     </ul>
