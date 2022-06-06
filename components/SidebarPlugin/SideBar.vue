@@ -29,12 +29,12 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'Creative Tim',
+      default: 'Miemmtec-SiCon',
       description: 'Sidebar title'
     },
     shortTitle: {
       type: String,
-      default: 'CT',
+      default: 'MT',
       description: 'Sidebar short title'
     },
     logo: {
