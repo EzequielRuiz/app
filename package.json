@@ -1,8 +1,8 @@
 {
-  "name": "iot_gl_app",
+  "name": "Miemmtec-SiCon",
   "version": "1.0.0",
-  "description": "IOT_GL_APP",
-  "author": "IoTicos.org",
+  "description": "Miemmtec-SiCon",
+  "author": "Miemmtec",
   "scripts": {
     "dev": "nuxt",
     "devn": "nodemon api/index.js --exec babel-node",

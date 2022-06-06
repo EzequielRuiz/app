@@ -4,17 +4,17 @@
       <ul class="nav">
         <li class="nav-item">
           <a
-            href="https://ioticos.org"
+            href="https://miemmtec.ar"
             target="_blank"
             rel="noopener"
             class="nav-link"
           >
-            IoTicos.org
+            Miemmtec.ar
           </a>
         </li>
         <li class="nav-item">
           <a
-            href="https://ioticos.org"
+            href="https://miemmtec.ar"
             target="_blank"
             rel="noopener"
             class="nav-link"
@@ -22,27 +22,18 @@
             About Us
           </a>
         </li>
-        <li class="nav-item">
-          <a
-            href="hhttps://ioticos.org"
-            target="_blank"
-            rel="noopener"
-            class="nav-link"
-          >
-            Blog
-          </a>
-        </li>
+        
       </ul>
       <div class="copyright">
         &copy; {{ year }}, made with <i class="tim-icons icon-heart-2"></i> by
         
         <a
-          href="https://ioticos.org"
+          href="https://miemmtec.ar"
           target="_blank"
           rel="noopener"
-          >IoTicos</a
+          >MIEMMTEC</a
         >
-        for a better web.
+        for a better Services.
       </div>
     </div>
   </footer>

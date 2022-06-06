@@ -31,7 +31,7 @@
           </div>
         </li>
 
-        <li class="button-container mt-4">
+        <!--<li class="button-container mt-4">
           <a
             href="https://www.creative-tim.com/learning-lab/nuxt/overview/black-dashboard"
             target="_blank"
@@ -56,7 +56,7 @@
           >
             Upgrade to PRO
           </a>
-        </li>
+        </li>-->
       </ul>
     </div>
   </div>
@@ -79,8 +79,8 @@
         isOpen: false,
         sidebarColors: [
           { color: 'primary', active: false, value: 'primary' },
-          { color: 'vue', active: true, value: 'vue' },
-          { color: 'info', active: false, value: 'blue' },
+          { color: 'vue', active: false, value: 'vue' },
+          { color: 'info', active: true, value: 'blue' },
           { color: 'success', active: false, value: 'green' }
         ]
       };
