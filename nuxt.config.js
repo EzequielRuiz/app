@@ -59,6 +59,11 @@ export default {
   axios: {
     baseURL: process.env.AXIOS_BASE_URL 
   },
+  pwa:{
+    icon:{
+      fileName:'logo_white.ico'
+    }
+  },
   env:{
    mqtt_prefix: process.env.MQTT_PREFIX,
    mqtt_host: process.env.MQTT_HOST,
