@@ -61,7 +61,7 @@ export default {
   },
   pwa:{
     icon:{
-      fileName:'logo_white.png'
+      fileName:'icon.png'
     }
   },
   env:{
