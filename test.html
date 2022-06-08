@@ -6,7 +6,7 @@ Mqtt test
 
 const clientId = 'mqttjs_' + Math.random();
 
-const host = 'ws://localhost:8083/mqtt';
+const host = 'ws://137.184.221.116:8083/mqtt';
 
 const options = {
   keepalive: 60,
@@ -20,7 +20,7 @@ const options = {
   password: "superuser",
   will: {
     topic: 'WillMsg',
-    payload: 'Connection Closed abnormally..!',
+    payload: 'Connection Closed anormally..!',
     qos: 0,
     retain: false
   },
