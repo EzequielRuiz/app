@@ -1,7 +1,7 @@
 {
-  "name": "Miemmtec-SiCon",
+  "name": "Miemmtec",
   "version": "1.0.0",
-  "description": "Miemmtec-SiCon",
+  "description": "Miemmtec",
   "author": "Miemmtec",
   "scripts": {
     "dev": "nuxt",

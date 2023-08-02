@@ -5,7 +5,7 @@
     <side-bar
       :background-color="sidebarBackground"
       short-title="SC"
-      title="Sicon-Miemmtec"
+      title="Miemmtec"
     >
       <template slot-scope="props" slot="links">
         <sidebar-item
