@@ -2,7 +2,7 @@
   <div class="wrapper" :class="{ 'nav-open': $sidebar.showSidebar }">
     <notifications></notifications>
 
-    <side-bar
+    <side-bar 
       :background-color="sidebarBackground"
       short-title="MGL"
       title="Miemmtec"

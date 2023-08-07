@@ -30,7 +30,7 @@
             class="nav-link"
           >
             Blog
-          </a>
+          </a> 
         </li>
       </ul>
       <div class="copyright">

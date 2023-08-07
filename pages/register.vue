@@ -112,7 +112,7 @@ export default {
           } else {
 
             this.$notify({
-              type: "danger",
+              type: "danger", 
               icon: "tim-icons icon-alert-circle-exc",
               message: "Error creating user..."
             });

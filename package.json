@@ -2,7 +2,7 @@
   "name": "miemmtec_gl_app",
   "version": "1.0.0",
   "description": "MIEMMTEC_GL_APP",
-  "author": "IoTicos.org",
+  "author": "IoTicos.org", 
   "scripts": {
     "dev": "nuxt",
     "devn": "nodemon api/index.js --exec babel-node",
