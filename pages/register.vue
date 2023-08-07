@@ -4,7 +4,7 @@
       <card class="card-login card-white">
         <template slot="header">
           <img src="img//card-info.png" alt="" />
-          <h1 class="card-title">Miemmtec-SiCon    </h1>
+          <h1 class="card-title">Miemmtec    </h1>
         </template>
  
         <div>
