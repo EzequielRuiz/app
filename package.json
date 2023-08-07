@@ -1,7 +1,7 @@
 {
-  "name": "iot_gl_app",
+  "name": "miemmtec_gl_app",
   "version": "1.0.0",
-  "description": "IOT_GL_APP",
+  "description": "MIEMMTEC_GL_APP",
   "author": "IoTicos.org",
   "scripts": {
     "dev": "nuxt",

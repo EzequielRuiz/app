@@ -40,7 +40,7 @@
           href="https://miemmtec.com.ar"
           target="_blank"
           rel="noopener"
-          >MIEMMTEC</a
+          >MIEMMTEC.</a
         >
         for a better web.
       </div>

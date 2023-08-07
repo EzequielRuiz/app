@@ -4,7 +4,7 @@
 
     <side-bar
       :background-color="sidebarBackground"
-      short-title="GL"
+      short-title="MGL"
       title="Miemmtec"
     >
       <template slot-scope="props" slot="links">
